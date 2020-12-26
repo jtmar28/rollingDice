@@ -37,7 +37,7 @@ public class Main extends Application {
         switch (roll){
             case 5: //draw upper right and lower left dots
                 gc.fillOval(START_X + DOT_3, START_Y + DOT_1, DOT_SIZE, DOT_SIZE);
-                gc.fillOval(START_X + DOT_2, START_Y + DOT_2, DOT_SIZE, DOT_SIZE);
+                //gc.fillOval(START_X + DOT_2, START_Y + DOT_2, DOT_SIZE, DOT_SIZE);
                 gc.fillOval(START_X + DOT_1, START_Y + DOT_3, DOT_SIZE, DOT_SIZE);
             case 3: //draw upper left and lower right
                 gc.fillOval(START_X + DOT_1, START_Y + DOT_1, DOT_SIZE, DOT_SIZE);
